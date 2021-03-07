@@ -24,3 +24,4 @@ c) you need to enter fields "sortBy" and "orderBy" in order sort data. You can s
 5. There are two MongoDB tables - user and employee
 6. There should be a .env file in root folder with DB_CONNECTION(connection link from MongoDB) and SECRET_TOKEN(you can define anything for this) details.
    
+Any endpoint hits the index.js and from there routes are called accordingly. Data folder contains the table structures. schemaValidation validates the request body.
