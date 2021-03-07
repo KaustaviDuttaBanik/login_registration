@@ -20,7 +20,7 @@ b) you can fetch data with firstName, lastName & empID(you can enter each field 
 c) you need to enter fields "sortBy" and "orderBy" in order sort data. You can sort data using 
    email, firstName, lastName, empId and organizationName. orderBy should be either "Asc" or "Desc".
 
-
+ 
 5. There are two MongoDB tables - user and employee
 6. There should be a .env file in root folder with DB_CONNECTION(connection link from MongoDB) and SECRET_TOKEN(you can define anything for this) details.
    
